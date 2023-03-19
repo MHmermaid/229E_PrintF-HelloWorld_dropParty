@@ -14,7 +14,7 @@ public class BallController : MonoBehaviour
     [SerializeField] private LayerMask rayLayer;
 
     private float force;
-    private Rigidbody rgBody;
+    private Rigidbody rgBody; 
 
     private Vector3 startPos, endPos;
     private bool canShoot = false, ballIsStatic = true;
